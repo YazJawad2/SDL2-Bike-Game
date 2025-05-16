@@ -1,4 +1,3 @@
-markdown
 # 🎮 2D Platformer Game | C++ & SDL2
 
 ![Game Screenshot](/res/images/screenshot.png) 

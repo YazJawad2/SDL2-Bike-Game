@@ -25,7 +25,7 @@ A simple 2D platformer game featuring player movement, obstacle generation, and 
 
 #bash
 # Clone & build
-git clone https://github.com/YOUR_USERNAME/SDL2-Platformer.git
+git clone https://github.com/YazJawad2/SDL2-Bike-Game.git
 cd SDL2-Platformer
 mkdir build && cd build
 cmake .. && make

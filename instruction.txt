@@ -1,0 +1,6 @@
+//1 Build the project
+
+cmake .
+//2 Run the debug executable ./bin/debug/main automatically
+
+make

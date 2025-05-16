@@ -1,0 +1,11 @@
+# Ignore build files and binaries
+bin/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+build/
+*.o
+*.log
+*.tmp
+*.swp

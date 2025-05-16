@@ -1,7 +1,7 @@
 markdown
 # 🎮 2D Platformer Game | C++ & SDL2
 
-![Game Screenshot](/res/images/screenshot.png) *(Replace with actual screenshot)*
+![Game Screenshot](/res/images/screenshot.png) 
 
 A simple 2D platformer game featuring player movement, obstacle generation, and parallax backgrounds.
 
@@ -66,23 +66,3 @@ cmake -DSDL2_DIR=/custom/path/to/sdl2 ..
 MIT License - See LICENSE for details.
 
 Note: Place all game assets in the res/ folder relative to the executable!
-
-
-### How to Use:
-1. Copy this entire text
-2. Create a new file named `README.md` in your project's root folder
-3. Paste the content
-4. Make these replacements:
-   - `YOUR_USERNAME` → Your GitHub username
-   - `SDL2-Platformer` → Your repository name
-   - Add actual screenshot (save as `res/images/screenshot.png`)
-
-This README includes:
-- Clean Markdown formatting
-- Multi-platform support
-- Dependency installation commands
-- CMake build instructions
-- Project structure overview
-- License information
-
-The file is optimized for GitHub's Markdown renderer and follows best practices for open-source projects.

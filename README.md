@@ -33,10 +33,10 @@ cmake .. && make
 ./game
 📦 Dependency Installation
 Ubuntu/Debian
-bash
+
 sudo apt install -y libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev cmake
 macOS (Homebrew)
-bash
+
 brew install sdl2 sdl2_image sdl2_ttf sdl2_mixer cmake
 Windows (vcpkg)
 powershell
@@ -44,24 +44,36 @@ vcpkg install sdl2 sdl2-image sdl2-ttf sdl2-mixer
 📂 Project Structure
 .
 ├── CMakeLists.txt          # Build configuration
+
 ├── src/                    # Source code
+
 │   ├── Game.cpp            # Main game loop
+
 │   ├── Player.cpp          # Player physics
+
 │   └── Obstacle.cpp        # Obstacle logic
+
 ├── include/                # Headers
+
 └── res/                    # Assets
-    ├── images/             # Textures
-    ├── musique/            # Audio  
-    └── font/               # Fonts
+
+|    ├── images/             # Textures
+    
+|    ├── musique/            # Audio  
+    
+|    └── font/               # Fonts
+    
 🛠 Build Options
+
 Variable	Description	Default
 SDL2_DIR	Custom SDL2 path	System
 BUILD_TESTING	Enable tests	OFF
 Example:
 
-bash
 cmake -DSDL2_DIR=/custom/path/to/sdl2 ..
+
 📜 License
+
 MIT License - See LICENSE for details.
 
 Note: Place all game assets in the res/ folder relative to the executable!
